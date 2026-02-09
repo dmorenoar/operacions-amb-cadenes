@@ -87,6 +87,11 @@ phrase.title()       # Primer caràcter de cada paraula en majúscula
 phrase.strip()                    # Elimina espais al principi i final
 phrase.replace("fer", "hacer")    # Reemplaça text
 phrase.replace("A", "9")          # Reemplaça caràcters
+
+#Exemple (case sensitive, A != a)
+phrase = input("Insert a phrase") #Ex: HALa
+text = phrase.replace("A", "9")
+print(text) #Output: H9La
 ```
 
 ### Cerca i Recompte
